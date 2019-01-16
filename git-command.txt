@@ -49,6 +49,15 @@ $ git checkout dev		切换分支
 ========================================================================================================================
 查看历史commit：
  git log --pretty=oneline --abbrev-commit
+========================================================================================================================
+本地Git关联GitHub:
+1.$ git init
+2.$ git add .
+3.$ git commit -m "create a new repository"
+4.$ git remote add origin git@github.com:2018hyyGitHub/hello-python-2
+5.$ git push -u origin master
+
+
 
  
 
